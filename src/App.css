@@ -1,0 +1,85 @@
+@font-face {
+               font-family: font1;
+               src: url("../public/651ac07a3c9d7a77eba4e230_Swansea.ttf");
+}
+@font-face {
+               font-family: font2;
+               src: url("../public/651bfa13da53cdd302b0a2d3_BeverlyHillsTypeface-Regular.ttf");
+}
+@font-face {
+               font-family: font3;
+               src: url("../public/CircularXXWeb-Book\ \(1\).ttf");
+}
+@font-face {
+               font-family: font4;
+               src: url("../public/64b78e95cb0b1ad4dd225d9f_Staff-SemiBold.ttf ");
+}
+@font-face {
+               font-family: font5;
+               src: url("../public/64b78e9f3bb52ff407d8d1bc_Staff-Medium.ttf ");
+}
+@font-face {
+               font-family: font6;
+               src: url("../public/651ac07a3c9d7a77eba4e230_Swansea.ttf");
+}
+@font-face {
+               font-family: font7;
+               src: url("../public/660a6e508e705041d7cabcbf_Arges-Black.otf");
+}
+@font-face {
+               font-family: font8;
+               src: url("../public/NGS6v5_NC0k9P9H2TbE.ttf");
+}
+
+.f1{
+               font-family: font1;
+}
+.f2{
+               font-family: font2;
+}
+.f3{
+               font-family: font3;
+}
+.f4{
+               font-family: font4;
+}
+.f5{
+               font-family: font5;
+}
+.f6{
+               font-family: font6;
+}
+.f7{
+               font-family: font7;
+}
+.f8{
+               font-family: font8;
+}
+
+.transi{
+               transition: all .5s ease;
+}
+.transii{
+               transition: all 1s ease;
+}
+.marque{
+               animation: marquee 45s linear infinite;
+}
+.marque1{
+               animation: marquee 20s linear infinite;
+}
+.marque2{
+               animation: marquee 18s linear infinite;
+}
+
+@keyframes marquee {
+               0% {
+                   transform: translateX(0%);
+               }
+               100% {
+                   transform: translateX(-100%);
+               }
+}
+*::-webkit-scrollbar {
+               display: none;
+}
