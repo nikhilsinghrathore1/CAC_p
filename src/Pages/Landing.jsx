@@ -251,11 +251,11 @@ const Landing = () => {
                               </div>
 
                               <div ref={hori} className='w-[200vw] h-full z-20 absolute left-0 top-0  '>
-                                                            <img onClick={()=>window.location.href="http://localhost:5173/singlePage"} className='w-72 absolute top-20 left-[35%] h-44 object-cover' src="https://cdn.prod.website-files.com/651ab5b074523bab8bac8ce1/6605cd104b4f1f496b120c94_coveryes-p-500.png" alt="not showing" />
-                                                            <img onClick={()=>window.location.href="http://localhost:5173/singlePage"} className='w-72 absolute top-[60%] left-[46%] h-44 object-cover' src="https://cdn.prod.website-files.com/651ab5b074523bab8bac8ce1/660462d11a6bc8335fa8eedb_social-p-500.png" alt="not showing" />
-                                                            <img onClick={()=>window.location.href="http://localhost:5173/singlePage"} className='w-72 absolute top-[30%] left-[60%] h-44 object-cover' src="https://cdn.prod.website-files.com/651ab5b074523bab8bac8ce1/666b62d484612efc30e30132_cookiecover(1)-p-500.png" alt="not showing" />
-                                                            <img onClick={()=>window.location.href="http://localhost:5173/singlePage"} className='w-72 absolute top-[55%] left-[72%] h-44 object-cover' src="https://cdn.prod.website-files.com/651ab5b074523bab8bac8ce1/660462d9c7a89540d1ec3869_ads-p-500.png" alt="not showing" />
-                                                            <img onClick={()=>window.location.href="http://localhost:5173/singlePage"} className='w-72 absolute top-[20%] left-[85%] h-44 object-cover' src="https://cdn.prod.website-files.com/651ab5b074523bab8bac8ce1/664fc6e3a396d8b66dc29624_ggdcover-p-500.png" alt="not showing" />
+                                                            <img onClick={()=>navigate("/singlePage")} className='w-72 absolute top-20 left-[35%] h-44 object-cover' src="https://cdn.prod.website-files.com/651ab5b074523bab8bac8ce1/6605cd104b4f1f496b120c94_coveryes-p-500.png" alt="not showing" />
+                                                            <img onClick={()=>navigate("/singlePage")} className='w-72 absolute top-[60%] left-[46%] h-44 object-cover' src="https://cdn.prod.website-files.com/651ab5b074523bab8bac8ce1/660462d11a6bc8335fa8eedb_social-p-500.png" alt="not showing" />
+                                                            <img onClick={()=>navigate("/singlePage")} className='w-72 absolute top-[30%] left-[60%] h-44 object-cover' src="https://cdn.prod.website-files.com/651ab5b074523bab8bac8ce1/666b62d484612efc30e30132_cookiecover(1)-p-500.png" alt="not showing" />
+                                                            <img onClick={()=>navigate("/singlePage")} className='w-72 absolute top-[55%] left-[72%] h-44 object-cover' src="https://cdn.prod.website-files.com/651ab5b074523bab8bac8ce1/660462d9c7a89540d1ec3869_ads-p-500.png" alt="not showing" />
+                                                            <img onClick={()=>navigate("/singlePage")} className='w-72 absolute top-[20%] left-[85%] h-44 object-cover' src="https://cdn.prod.website-files.com/651ab5b074523bab8bac8ce1/664fc6e3a396d8b66dc29624_ggdcover-p-500.png" alt="not showing" />
                               </div>
                </div>
 
@@ -287,7 +287,7 @@ const Landing = () => {
 
                               <div className='w-full relative z-10 h-[150vh]'>
                                              <div className='pl-[114px] w-full mt-[360px]'>
-                                                            <p onClick={()=>window.location.href="http://localhost:5173/club"} className='text-[14px] tracking-wide f1 font-light  opacity-80 mb-10'><span>Offering various Clubs</span></p>
+                                                            <p onClick={()=>navigate("/club")} className='text-[14px] tracking-wide f1 font-light  opacity-80 mb-10'><span>Offering various Clubs</span></p>
                                              </div>
 
                                              {[1,2,3,4].map((e,i)=>(
